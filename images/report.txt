@@ -1,0 +1,83 @@
+Questions:
+1. change grayscale back to color?
+2. converge condition? smaller threshold
+
+brain:
+skull:
+    alpha = 0.001
+    beta = 20
+    gamma = 0.5
+    kappa = 1
+    w_line = 1
+    w_edge = 2
+    w_term = 2
+inner matter:
+    alpha = 0.001
+    beta = 20
+    gamma = 0.5
+    kappa = 0.5
+    w_line = -1
+    w_edge = 2
+    w_term = 2
+right eye hole:
+    alpha = 0.001
+    beta = 20
+    gamma = 0.5
+    kappa = 1
+    w_line = -1
+    w_edge = 1
+    w_term = 4
+
+circle:
+    alpha = 0.001
+    beta = 20
+    gamma = 0.5
+    kappa = 1
+    w_line = -1
+    w_edge = 1
+    w_term = 2
+
+dental:
+    alpha = 0.001
+    beta = 20
+    gamma = 0.5
+    kappa = 1
+    w_line = 1
+    w_edge = 2
+    w_term = 2
+
+shape:
+    alpha = 0.001
+    beta = 20
+    gamma = 0.5
+    kappa = 1
+    w_line = 1
+    w_edge = 2
+    w_term = 1
+
+square:
+    alpha = 0.001
+    beta = 5
+    gamma = 0.5
+    kappa = 1
+    w_line = -1
+    w_edge = 2
+    w_term = 1
+
+star:
+    alpha = 0.05
+    beta = 5 
+    gamma = 1
+    kappa = 2
+    w_line = 1
+    w_edge = 2
+    w_term = 1
+
+vase:
+    alpha = 0.001
+    beta = 20
+    gamma = 0.5
+    kappa = 1
+    w_line = 1
+    w_edge = 2
+    w_term = 2
